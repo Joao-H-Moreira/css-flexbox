@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Oxanium', cursive;
-}
-
 body {
   text-align: center;
   background: linear-gradient(to bottom, #6ab7f5, #fff);
@@ -19,24 +12,6 @@ body {
     overflow: hidden;
     background-color: #333;
   }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 30px;
-    text-decoration: none;
-  
-  }
-  
-  li a:hover {
-    background-color:red;
-  }
-
 }
 footer {
   display: flex;
@@ -51,24 +26,6 @@ main {
   padding: 15px;
   position: relative;
 }
-  
-
-  li a:hover {
-    background-color:red;
-  }
-
-ol{
-display: flex;
-flex-direction: column;
-color: black;
-font-style: unset;
-text-align: left;
-padding: 20px 20px;
-text-decoration: none;
-margin: 15px;
-  
-}
-
 .box {
     display: flex;
   }
