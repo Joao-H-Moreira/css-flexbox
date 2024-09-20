@@ -92,7 +92,7 @@ body{
 
   border: 1px solid rgb(161, 159, 159);
   border-radius: 0px 20px 0px 0px;
-  background-color: grey;
+  background-color: rgb(225, 225, 225);
 }
 .section_car img{
   width: 57%;
@@ -133,7 +133,7 @@ body{
 
   border: 1px solid rgba(161, 159, 159, 0.747);
   border-radius: 10px 10px 0px 0px;
-  background-color: grey;
+  background-color: rgb(225, 225, 225);
 }
 
 .artigo_car_02 img{
