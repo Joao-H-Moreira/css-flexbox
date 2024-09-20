@@ -62,7 +62,7 @@ body{
 }
 
 .links_menu:hover{
-  text-shadow: 5px 5px 10px grey;
+  text-shadow: 5px 5px 10px #0c7e7e;
 }
 
 .section_car{
@@ -77,7 +77,7 @@ body{
 
   border: 1px solid rgb(161, 159, 159);
   border-radius: 0px 20px 0px 0px;
-  background-color: rgba(174, 174, 174, 0.155);
+  background-color: grey;
 }
 .section_car img{
   width: 57%;
@@ -118,7 +118,7 @@ body{
 
   border: 1px solid rgba(161, 159, 159, 0.747);
   border-radius: 10px 10px 0px 0px;
-  background-color: rgba(174, 174, 174, 0.155);
+  background-color: grey;
 }
 
 .artigo_car_02 img{
