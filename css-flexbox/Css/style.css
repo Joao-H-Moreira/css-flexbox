@@ -56,15 +56,30 @@ body{
   font-size: 22px;
 }
 
-.links_menu{
+.links_m1{
   text-decoration: none;
   color: black;
 }
 
-.links_menu:hover{
+.links_m1:hover{
   text-shadow: 5px 5px 10px #0c7e7e;
 }
+.links_m2{
+  text-decoration: none;
+  color: black;
+}
 
+.links_m2:hover{
+  text-shadow: 5px 5px 10px yellow;
+}
+.links_m3{
+  text-decoration: none;
+  color: black;
+}
+
+.links_m3:hover{
+  text-shadow: 5px 5px 10px red;
+}
 .section_car{
   width: 85%;
   height: 500px;
