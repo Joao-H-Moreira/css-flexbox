@@ -19,17 +19,13 @@ header{
   
   
 }
-.flex-container {
+.flex-caixa {
   display: flex;
   flex: 1 1 auto;
   justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
   
-}
-.flex-container  {
-  display: flex;
-  flex-direction: row-reverse;
-  flex: 1 1 auto;
-  justify-content: center;
 }
 .link {
   display: flex;
@@ -42,17 +38,30 @@ body {
   background: linear-gradient(to bottom, #a5c8ca, #f6eddc);
   min-height: 100vh;
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
 }
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e3e5d7;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
 main {
   display: inline-block;
   margin-top: 2%;
   padding: 15px;
   position: relative;
+}
+
+image{
+  width: 10%;
+  height: 10%;
 }
