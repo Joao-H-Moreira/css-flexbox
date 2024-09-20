@@ -27,7 +27,7 @@ body{
 }
 
 .logo{
-  background: linear-gradient(to left, #3494e6, #027f4f);
+  background: linear-gradient(to left, #000706, #00272d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -38,7 +38,8 @@ body{
   font-size: 50px;
   height: 50px;
 
-  margin-left: 5%;
+  margin-left: 3%;
+  margin-right: 10%;
 }
 
 .menu{
