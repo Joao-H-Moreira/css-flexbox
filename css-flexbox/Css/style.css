@@ -64,7 +64,7 @@ body{
   text-shadow: 5px 5px 10px grey;
 }
 
-.section_apt{
+.section_car{
   width: 85%;
   height: 500px;
 
@@ -78,30 +78,30 @@ body{
   border-radius: 0px 20px 0px 0px;
   background-color: rgba(174, 174, 174, 0.155);
 }
-.section_apt img{
+.section_car img{
   width: 57%;
   height: 500px;
 }
 
-.artigo_apt{
+.artigo_car{
   margin-left: 20px;
   margin-right: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.titulo_apt{
+.titulo_car{
   font-size: 30px;
   border-bottom: 2px solid gray;
 }
 
-.apt_texto{
+.car_texto{
   font-size: 18px;
   text-align: justify;
 }
 
 
 
-.apartamentos{
+.modalidades{
   width: 80%;
   margin: auto;
   margin-top: 40px;
@@ -111,7 +111,7 @@ body{
   flex-wrap: wrap;
 }
 
-.artigo_apt_02{
+.artigo_car_02{
   width: 30%;
   margin-bottom: 40px;
 
@@ -120,14 +120,14 @@ body{
   background-color: rgba(174, 174, 174, 0.155);
 }
 
-.artigo_apt_02 img{
+.artigo_car_02 img{
   width: 100%;
   height: 200px;
   
   border-radius: 10px 10px 0px 0px;
 }
 
-.sobre_apt{
+.sobre_car{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -136,33 +136,12 @@ body{
   margin: auto;
 }
 
-.titulo_apt_02{
+.titulo_car_02{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
   border-bottom: 2px solid rgba(128, 128, 128, 0.438);
 }
 
-.btn_sm_apts{
-  margin: auto;
-  margin-bottom: 10px;
-
-  cursor: pointer;
-
-  width: 120px;
-  height: 25px;
-
-  background-color: rgb(0, 42, 212);
-  border: 1px solid blue;
-  border-radius: 5px;
-
-  color: white;
-
-  transition: box-shadow 700ms;
-}
-
-.btn_sm_apts:hover, .btn_saiba_mais:hover{
-  box-shadow: 0px 0px 8px blue;
-}
 
 footer{
   width: 100%;
