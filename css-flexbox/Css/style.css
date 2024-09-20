@@ -39,29 +39,63 @@ body {
   min-height: 100vh;
 
 }
-.flex-container {
+img{
+  width: 40%;
+  height: 40%;
+}
+
+.Rua {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: #e3e5d7;
 }
 
-.flex-container > div {
+.Rua > div {
   background-color: #f1f1f1;
-  width: 100px;
+  width: 60%;
   margin: 10px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
 }
 
+
+.Hyper {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #e3e5d7;
+}
+
+.Hyper > div {
+  background-color: #f1f1f1;
+  width: 60%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+
+.F1 {
+  display: flex;
+  flex-direction: row;
+  background-color: #e3e5d7;
+}
+
+.F1 > div {
+  background-color: #f1f1f1;
+  width: 10%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
 main {
   display: inline-block;
   margin-top: 2%;
   padding: 15px;
   position: relative;
-}
-
-image{
-  width: 10%;
-  height: 10%;
 }
