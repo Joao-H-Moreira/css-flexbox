@@ -28,7 +28,7 @@ body{
 
 .logo{
   background: linear-gradient(to left, #000706, #00272d);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 
   display: inline-block;
