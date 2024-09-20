@@ -1,101 +1,191 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-.bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+@font-face {
+  font-family: Dancing;
+  src: url(../fonte/DancingScript-VariableFont_wght.ttf);
+}
+body{
+  width: 100%;
+  margin: auto;
 }
 
+.container{
+  height: 100%;
+  margin: auto;   
+}
 
-header{
-  display: flex ;
+.cabecalho{
+  width: 100%;
+  height: 100px;
+
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #586875;
-  color: aliceblue;
-}
   
+  background-color: rgba(174, 174, 174, 0.155);
+  
+  margin: auto;
+  padding: auto;
+}
+
 .logo{
-  flex: 1 1 auto;
-  
-  
-}
-.flex-caixa {
-  display: flex;
-  flex: 1 1 auto;
-  justify-content: center;
-  margin-top: auto;
-  margin-bottom: auto;
-  
-}
-.link {
-  display: flex;
-  flex: 1 1 auto;
-  justify-content: center;
-}
+  background: linear-gradient(to left, #3494e6, #027f4f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
-body {
-  text-align: center;
-  background: linear-gradient(to bottom, #a5c8ca, #f6eddc);
-  min-height: 100vh;
-
-}
-img{
-  width: 40%;
-  height: 40%;
-}
-
-.Rua {
-  display: flex;
-  flex-direction: row;
-  background-color: #e3e5d7;
-}
-
-.Rua > div {
-  background-color: #f1f1f1;
-  width: 60%;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
-
-
-.Hyper {
-  display: flex;
-  flex-direction: row-reverse;
-  background-color: #e3e5d7;
-}
-
-.Hyper > div {
-  background-color: #f1f1f1;
-  width: 60%;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
-
-
-
-.F1 {
-  display: flex;
-  flex-direction: row;
-  background-color: #e3e5d7;
-}
-
-.F1 > div {
-  background-color: #f1f1f1;
-  width: 60%;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
-
-
-main {
   display: inline-block;
-  margin-top: 2%;
-  padding: 15px;
-  position: relative;
+
+  font-family: Dancing;
+  font-weight: 800px;
+  font-size: 50px;
+  height: 50px;
+
+  margin-left: 5%;
+}
+
+.menu{
+  margin-top: auto;
+  margin-right: 10%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 450px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.links_menu{
+  text-decoration: none;
+  color: black;
+}
+
+.links_menu:hover{
+  text-shadow: 5px 5px 10px grey;
+}
+
+.section_apt{
+  width: 85%;
+  height: 500px;
+
+  display: flex;
+  flex-direction: row;
+  
+  margin: auto;
+  margin-top: 30px;
+
+  border: 1px solid rgb(161, 159, 159);
+  border-radius: 0px 20px 0px 0px;
+  background-color: rgba(174, 174, 174, 0.155);
+}
+.section_apt img{
+  width: 57%;
+  height: 500px;
+}
+
+.artigo_apt{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo_apt{
+  font-size: 30px;
+  border-bottom: 2px solid gray;
+}
+
+.apt_texto{
+  font-size: 18px;
+  text-align: justify;
+}
+
+
+
+.apartamentos{
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.artigo_apt_02{
+  width: 30%;
+  margin-bottom: 40px;
+
+  border: 1px solid rgba(161, 159, 159, 0.747);
+  border-radius: 10px 10px 0px 0px;
+  background-color: rgba(174, 174, 174, 0.155);
+}
+
+.artigo_apt_02 img{
+  width: 100%;
+  height: 200px;
+  
+  border-radius: 10px 10px 0px 0px;
+}
+
+.sobre_apt{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: justify;
+  width: 90%;
+  margin: auto;
+}
+
+.titulo_apt_02{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  border-bottom: 2px solid rgba(128, 128, 128, 0.438);
+}
+
+.btn_sm_apts{
+  margin: auto;
+  margin-bottom: 10px;
+
+  cursor: pointer;
+
+  width: 120px;
+  height: 25px;
+
+  background-color: rgb(0, 42, 212);
+  border: 1px solid blue;
+  border-radius: 5px;
+
+  color: white;
+
+  transition: box-shadow 700ms;
+}
+
+.btn_sm_apts:hover, .btn_saiba_mais:hover{
+  box-shadow: 0px 0px 8px blue;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: rgba(174, 174, 174, 0.155);
+}
+
+.menu_footer{
+  width: 360px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+}
+
+.menu_footer img{
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+
+.menu_footer span{
+  width: 300px;    
 }
